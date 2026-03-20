@@ -1,7 +1,7 @@
 const promise=new Promise(function(resolve,reject){
   setTimeout(()=>{
-    let perror=true;
-    if (!perror) {
+    let error=true;
+    if (!error) {
       resolve({username:"sisir",password:"12345"})
     }else{
       reject("ERROR:whats on your mind")
