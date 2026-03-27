@@ -1,7 +1,7 @@
 // Input: 
 // Output: 3
 
-let input = [1,2,3,4];
+let input = [1,2,3];
 
 let count=0;
 
