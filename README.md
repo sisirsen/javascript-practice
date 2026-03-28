@@ -8,6 +8,7 @@ The goal of this repository is to practice core JavaScript concepts and apply th
 
 # Topics Covered
 
+* Js Basics
 * Functions
 * Arrays and Array Methods
 * Objects
