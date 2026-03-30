@@ -1,5 +1,5 @@
-i=0;
-while (i<5) {
-  i++;
+i=7;
+while (i>0) {
+  i--;
   console.log(i);
 }
