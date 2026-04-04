@@ -17,7 +17,7 @@
 
 // let bg=document.querySelectorAll(".box");
 // bg.forEach((el)=>{
-//   return el.style.backgroundColor="pink"
+//   el.style.backgroundColor="pink"
 // })    here queryselectorAll select all elements who have class box and give them color pink.
 
 
