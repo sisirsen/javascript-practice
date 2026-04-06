@@ -38,8 +38,9 @@
 
 //
 
-let newEl5=document.querySelector(".botul");
+//using insertAdjacentHtml
 
+// let newEl5=document.querySelector(".botul");
 // newEl5.insertAdjacentHTML("beforeend","<p> i am a bot1 </p>")
 // newEl5.insertAdjacentHTML("afterend","<p> i am a bot2 </p>")
 // newEl5.insertAdjacentHTML("beforebegin","<p> i am a bot3 </p>")
