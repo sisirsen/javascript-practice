@@ -16,6 +16,7 @@ The goal of this repository is to practice core JavaScript concepts and apply th
 * Callbacks
 * Asynchronous JavaScript
 * DOM Manipulation
+*React Js*
 
 
 # Author
