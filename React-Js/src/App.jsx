@@ -1,7 +1,7 @@
 import Navbar from "./components/navbar"
 import Footer  from "./components/footer";
 import Props from "./components/props";
-import Onclick from "./components/onclick";
+import FinalProps from "./components/finalProps";
 function App() {
 
   const coders = [
@@ -18,6 +18,12 @@ function App() {
   return (
     <>
     <Navbar />
+    <div className="flex gap-5">
+    <FinalProps goal="fullstack" career="b.tech" location="kolkata" />
+    <FinalProps goal="frontend" career="b.tech" location="mumbai" />
+    <FinalProps goal="backend" career="b.tech" location="maharasthra" />
+    </div>
+    
     {coders.map((user,idx)=>(
     <Props 
     key={idx}
@@ -26,8 +32,6 @@ function App() {
     />
 
     ))}
-
-    <Onclick />
    
     <Footer  />
     
