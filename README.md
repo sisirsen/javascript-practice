@@ -16,9 +16,11 @@ The goal of this repository is to practice core JavaScript concepts and apply th
 * Callbacks
 * Asynchronous JavaScript
 * DOM Manipulation
-*React Js*
+
+# React Js 
+React js also covered in this repository
 
 
 # Author
 
-Sisir Sen
+*Sisir Sen*
