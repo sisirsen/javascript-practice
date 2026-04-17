@@ -1,7 +1,9 @@
+import { useState } from "react";
 import Navbar from "./components/navbar"
 import Footer  from "./components/footer";
 import Props from "./components/props";
 import FinalProps from "./components/finalProps";
+import Usestate from "./components/usestate";
 function App() {
 
   const coders = [
@@ -17,7 +19,10 @@ function App() {
  
   return (
     <>
+    <div className="space-y-4">
     <Navbar />
+
+    <Usestate />
     <div className="flex gap-5">
     <FinalProps goal="fullstack" career="b.tech" location="kolkata" />
     <FinalProps goal="frontend" career="b.tech" location="mumbai" />
@@ -34,6 +39,7 @@ function App() {
     ))}
    
     <Footer  />
+    </div>
     
     </>
   )
