@@ -1,11 +1,14 @@
-import { useState } from "react";
+import { useState, Useeffect } from "react";
 import Navbar from "./components/navbar"
 import Footer  from "./components/footer";
 import Props from "./components/props";
 import FinalProps from "./components/finalProps";
 import Usestate from "./components/usestate";
 import ProjectUsestate from "./components/ProjectUsestate";
+import UseEff from "./components/Useeffect";
 function App() {
+
+  
 
   const coders = [
   { name: "Sisir", role: "Frontend Dev" },
@@ -22,6 +25,8 @@ function App() {
     <>
     <div className="space-y-10">
     <Navbar />
+
+    <UseEff />
 
     <ProjectUsestate/>
 
